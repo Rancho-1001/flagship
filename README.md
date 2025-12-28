@@ -180,9 +180,12 @@ flagship/
 ├── requirements.txt     # Python dependencies
 ├── Dockerfile           # Container definition
 ├── docker-compose.yml   # Docker Compose configuration
+├── alembic.ini          # Alembic configuration
+├── test_api.py          # Automated API test script
 ├── README.md            # This file
 ├── TESTING.md           # Testing guide
-└── MIGRATION_SETUP.md   # Database migrations guide
+├── MIGRATION_SETUP.md   # Database migrations guide
+└── build.md             # Original build guide
 ```
 
 ## 🗄️ Database Migrations
